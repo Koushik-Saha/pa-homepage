@@ -40,3 +40,7 @@
 .container{
   padding: 0 7% !important;
 }
+
+.align_details{
+  text-align: center!important;
+}

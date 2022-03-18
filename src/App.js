@@ -1,5 +1,5 @@
 import './App.css';
-import {Layout} from "antd";
+import {Image, Layout} from "antd";
 import MainHeaderTop from "./pages/MainHeaderTop";
 import SubHeaderDown from "./pages/SubHeaderDown";
 import MiddleHeaderTop from "./pages/MiddleHeaderTop";
@@ -12,7 +12,11 @@ const App = () => {
   return (
       <div className="container">
           <Layout>
-              <Header>Header</Header>
+              <Header>
+                  <div className="align_details">
+                      <Image src="https://assets.prothomalo.com/prothomalo/assets/palo-bangla-bb996cdb70d2e0ccec8c.svg" alt="ImageLogo"/>
+                  </div>
+              </Header>
               <Layout>
                   <Content>
                       <MainHeaderTop/>
