@@ -5,6 +5,7 @@ import SubHeaderDown from "./pages/SubHeaderDown";
 import MiddleHeaderTop from "./pages/MiddleHeaderTop";
 import LastHeaderBanner from "./pages/LastHeaderBanner";
 import Text from "antd/es/typography/Text";
+import SliderTopMain from "./pages/SliderTopMain";
 const { Header, Footer, Sider, Content } = Layout;
 
 const App = () => {
@@ -19,7 +20,9 @@ const App = () => {
                       <SubHeaderDown />
                       <LastHeaderBanner />
                   </Content>
-                  <Sider>Sider</Sider>
+                  <Sider>
+                      <SliderTopMain/>
+                  </Sider>
               </Layout>
               <Footer>
                   <Text type="secondary">স্বত্ব © ২০২২ প্রথম আলো সম্পাদক ও প্রকাশক: মতিউর রহমান</Text>
