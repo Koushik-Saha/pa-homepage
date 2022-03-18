@@ -1,6 +1,6 @@
 import {Typography} from "antd";
 
-const { Text, Paragraph } = Typography;
+const { Paragraph } = Typography;
 
 const DescriptionMaker = (props) => {
     return (

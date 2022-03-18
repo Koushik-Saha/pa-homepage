@@ -4,7 +4,7 @@ const { Title } = Typography;
 
 const TitleMaker = (props) => {
     return (
-        <Title level={4}>{props?.title}</Title>
+        <Title level={props.size}>{props?.title}</Title>
     );
 }
 
