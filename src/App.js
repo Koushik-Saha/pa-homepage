@@ -3,6 +3,8 @@ import {Layout} from "antd";
 import MainHeaderTop from "./pages/MainHeaderTop";
 import SubHeaderDown from "./pages/SubHeaderDown";
 import MiddleHeaderTop from "./pages/MiddleHeaderTop";
+import LastHeaderBanner from "./pages/LastHeaderBanner";
+import Text from "antd/es/typography/Text";
 const { Header, Footer, Sider, Content } = Layout;
 
 const App = () => {
@@ -15,10 +17,13 @@ const App = () => {
                       <MainHeaderTop/>
                       <MiddleHeaderTop />
                       <SubHeaderDown />
+                      <LastHeaderBanner />
                   </Content>
                   <Sider>Sider</Sider>
               </Layout>
-              <Footer>Footer</Footer>
+              <Footer>
+                  <Text type="secondary">স্বত্ব © ২০২২ প্রথম আলো সম্পাদক ও প্রকাশক: মতিউর রহমান</Text>
+              </Footer>
           </Layout>
       </div>
   );

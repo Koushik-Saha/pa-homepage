@@ -23,3 +23,8 @@ code {
 .ant-layout{
   background: none!important;
 }
+
+.ant-layout-footer{
+  text-align: center;
+  background: none!important;
+}
