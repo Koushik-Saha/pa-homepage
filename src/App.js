@@ -1,12 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import {Layout} from "antd";
+const { Header, Footer, Sider, Content } = Layout;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      </header>
-    </div>
+      <Layout>
+          <Header>Header
+          </Header>
+          <Layout>
+              <Content>Content</Content>
+              <Sider>Sider</Sider>
+          </Layout>
+          <Footer>Footer</Footer>
+      </Layout>
   );
 }
 
