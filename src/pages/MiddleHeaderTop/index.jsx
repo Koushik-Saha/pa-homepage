@@ -11,7 +11,7 @@ const MiddleHeaderTop = () => {
             {
                 jsonData?.slice(2,5)?.map((item, index) => {
                     return (
-                        <Col span={8} key={index}>
+                        <Col xs={24} sm={24} md={24} lg={24} xl={8} xxl={8} key={index}>
                             <Space direction="vertical">
                                 <TitleMaker size={5} title={item?.title}/>
                                 <DescriptionMaker description={item?.description}/>
