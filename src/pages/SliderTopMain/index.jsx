@@ -3,6 +3,7 @@ import {Col, Row, Space} from "antd";
 import ImageMaker from "../../components/ImageMaker";
 import Text from "antd/es/typography/Text";
 import {differentFormatDateTime} from "../../services/helper";
+import "../../main.scss"
 
 const SliderTopMain = () => {
     return (

@@ -8,13 +8,13 @@ const SubHeaderDown = () => {
     return (
         <Row gutter={16} className="main_sub_layout">
             {
-                jsonData?.slice(0,6)?.map((item, index) => {
+                jsonData?.slice(6,12)?.map((item, index) => {
                     return (
-                        <Col xs={24} sm={24} md={24} lg={24} xl={8} xxl={8} key={index}>
+                        <Col xs={24} sm={24} md={24} lg={12} xl={8} xxl={8} key={index}>
                             <Row gutter={16} className="main_sub_layout">
                                 <Col xs={24} sm={24} md={24} lg={24} xl={8} xxl={8}>
                                     <Space direction="vertical">
-                                        <ImageMaker url={item?.photo} width={150}/>
+                                        <ImageMaker url={item?.photo} width={110}/>
                                         <span>{differentFormatDateTime(item?.time)} ঘন্টা আগে </span>
                                     </Space>
                                 </Col>
@@ -24,7 +24,6 @@ const SubHeaderDown = () => {
                                     </Space>
                                 </Col>
                             </Row>
-
                         </Col>
                     )
                 })

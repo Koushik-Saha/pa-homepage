@@ -38,7 +38,12 @@
 }
 
 .container{
-  padding: 0 7% !important;
+  max-width: 1280px!important;
+  /*padding: 0 7% !important;*/
+  overflow-wrap: break-word;
+  word-break: break-word;
+  margin: 0 auto;
+  padding: 0 0.8889rem;
 }
 
 .align_details{
